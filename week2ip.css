@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)),url(ghanaflag.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.introtext{
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.introtext h1{
+    font-size: 69px;    
+}
+.introtext p{
+    margin: 10px o 40px;
+    font-size: 20px;
+    color: white;
+}
