@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.75)),url(ghanaflag.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: auto;
+    padding: 0%; 
+}
+.introtext{
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.introtext h1{
+    font-size: 69px;    
+}
+.introtext p{
+    margin: 10px o 40px;
+    font-size: 30px;
+    color: white;
+}
+.form{
+    width: 420px;
+    margin-top: 50%;
+    margin:auto;
+}
+.form p{
+    text-align: center;
+    font-size: 42px;
+    color: white;
+}
+.details{
+    position: relative;
+    max-width: 360px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20%;
+    margin-left:38.5%;
+}
+.form input{
+    font-family: 'Times New Roman', Times, serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border: 4px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.form h3{
+    text-align: center;
+    font-size: 42px;
+    color: white;
+    font-weight: 100;
+}
+.form input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.container input{
+    width: 400px;
+    height: 75px;
+    border-radius: 4px;
+    color:black;
+}
+.container input:hover{
+    box-shadow: inset 400px 0 0 0 red;
+}
+.container output[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 25px;
+}

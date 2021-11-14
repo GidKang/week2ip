@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>week1project</title>   
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <link href="/home/gideon/Desktop/week2ip/week2ip.css" rel="stylesheet" type="text/css">
+    <link href="/home/gideon/Desktop/week2ip/bootstrap.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <script src="/home/gideon/Desktop/week2ip/week2ip.js"></script>
+      <div class="introtext">
+        <h1>AKAN NAME CALCULATOR</h1>
+        <p>Welcome to the Akan Name Calculator. Using this tool, you can discover what your Akan name is from inputing your date of birth and the year you were born, along with your Gender. This program will then calculate the day in the week which you were born and display it on the screen and your Akan name below it.<br><stong>Try it for yourself!</stong></p>
+      </div>
+      <div class="details">
+        <div class="form">
+          <form>
+            <table>
+            <p>Day  : <input TYPE="text" NAME="Day" SIZE="3"></p>
+            <p>Month: <input TYPE="text" NAME="Month" SIZE="3"></p>
+            <p>Year : <input TYPE="text" NAME="Year" SIZE="5"></p>    
+            <h3><b>GENDER:</b></h3>
+        </div>
+        <div class="container">
+            <p><input type="button" value="MALE"  ONCLICK="compute(this.form)"></p>
+            <p><input type="button" value="FEMALE" ONCLICK="tomm(this.form)"></p>    
+            <p>Date of Birth: <output TYPE="text" NAME="result1" SIZE="18"></p>
+            <p>Your Akan Name Is: <output TYPE="text" NAME="result2" SIZE="18"></p>
+        </div>
+            </table>
+          </form>
+     </div>  
+  </body>
+
