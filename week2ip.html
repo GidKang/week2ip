@@ -4,39 +4,36 @@
     <title>week1project</title>   
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <link href="week2ip.css" rel="stylesheet" type="text/css">
-    <link href="/home/gideon/Desktop/week2ip/bootstrap.css" rel="stylesheet" type="text/css">
-    <script src="/home/gideon/Desktop/week2ip/week2ip.js"></script>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="week2ip.js"></script>
   </head>
   <body>
       <div class="introtext">
         <h1>AKAN NAME CALCULATOR</h1>
-        <p>Welcome to the Akan Name Calculator.<br> Using this tool, you can discover what your Akan name is from inputing your date of birth and the year you were born, along with your Gender. This program will then calculate the day in the week which you were born and display it on the screen and your Akan name below it.<br><stong>Try it for yourself!</stong></p>
+        <p>Welcome to the Akan Name Calculator.<br> Using this tool, you can discover what your Akan name is from inputing your date of birth and the year you were born, along with your Gender. This program will then calculate the day in the week which you were born and display it on the screen along with your Akan name.<br><stong>Try it for yourself!</stong></p>
       </div>
-      <div class="container">
-        <div class="box">
-                <div class="form-group top-form">
-                  <label for="century" class="labels">CENTURY</label>
-                  <input type="number" class="form-control" placeholder="Enter the century" id="century" required  min="0" max="30">
+        <div class="forms">
+            <form name="kanName">
+                <div class="form-group">
+                  <label for="year">Enter Year of Birth</label>
+                  <input name="year" type="text" class="form-control" id="birthYear" placeholder="Enter year of birth">
                 </div>
                 <div class="form-group">
-                  <label for="year" class="labels">YEAR</label>
-                  <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
+                    <label for="month">Enter Birth Month</label>
+                    <input name="month" type="text" class="form-control" id="birthMonth" placeholder="Enter Birth month">
                 </div>
                 <div class="form-group">
-                  <label for="month" class="labels">MONTH</label>
-                  <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required min="0" max="12">
+                    <label for="day">Enter Date of Birth</label>
+                    <input name="day" type="text" class="form-control" id="birthDay" placeholder="Enter birth date">
                 </div>
-                <div class="form-group">
-                  <label for="monthDay" class="labels">DAY OF THE MONTH</label>
-                  <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required min="0" max="12">
-                </div>
-                <form class="radio-button">
-                  <input type="radio" class="gender-labels" value="male" id="rad1" name="rads" required>MALE
-                  <input type="radio" class="gender-labels" value="female" id="rad1" name="rads" required>FEMALE
-                </form>
-                <br>
-                <a href="#result"><button type="button" name="button" class="btn-primary" onclick="checkDayOfWeek();">Calculate Akan Name</button></a>
-                <h1 id="result"></h1>
+                <select class="form-control2" name="Gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                 </select><br>
+              </form>
+              <input class="btn1" type="button" value="submit" onclick="validateForm()">
+              <input class="btn1" type="button" value="Clear Selection" onclick="reset()">
         </div>
-     </div>  
+       </div>
+      </div>
   </body>

@@ -25,40 +25,36 @@ body{
 }
 .introtext p{
     margin: 10px o 40px;
-    font-size: 30px;
-    color: white;
-}
-.container{
-    align-items: center;
-    margin-top: 23.5%;
-    opacity: 0.9;
-    border-radius: 10px;
-}
-.form-group{
-    color: rgb(255, 255, 255);
-    font-weight: 600;
-    font-size: 18px;
-    font-family: serif;
-  }
-.labels{
-    font-weight: lighter;
-    margin-top: 2%;
     font-size: 25px;
     color: white;
-    text-align: center;
 }
-.genders{
-    margin-left: 50px;
-}
-  .rounded-circle{
-    margin-left: 40%;
-}
-
-.radio-button{
-    margin-top:2%;
-    font-size: large;
+label{
     color: white;
+    font-size: 25px;
+}
+.forms{
     align-items: center;
-    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 450px;
+    width: 60%;
+    margin-left: 385px;
+}
+.btn1{
+    background-color: #4CAF50; /* Green */
+    border: none;
     border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+.form-control2{
+    width: 60%;
+    margin-top: 2%;
+    width: 400px;
+    height: 35px;
+    margin-bottom: 2%;
 }
