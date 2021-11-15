@@ -28,10 +28,9 @@ body{
     font-size: 30px;
     color: white;
 }
-.container{ 
-    margin-top: 23%;
-    margin-left: 25%;
-    margin-right: 16%;
+.container{
+    align-items: center;
+    margin-top: 23.5%;
     opacity: 0.9;
     border-radius: 10px;
 }
@@ -39,7 +38,7 @@ body{
     color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 18px;
-    font-family: 'Quattrocento', serif;
+    font-family: serif;
   }
 .labels{
     font-weight: lighter;
@@ -51,31 +50,15 @@ body{
 .genders{
     margin-left: 50px;
 }
-  .btn{
-    margin-left: 50px;
-    margin-top: 20px;
-    height: 45px;
-    width: 200px;
-    border-radius: 20px;
-}
-#result{
-    margin-top: 30px;
-    color:white;
-    font-size: 28px;
-  }
   .rounded-circle{
     margin-left: 40%;
-  }
-h2{
-    text-align: center;
-    color: white;
-    font-size: large;
 }
+
 .radio-button{
     margin-top:2%;
     font-size: large;
     color: white;
-}
-.btn btn-primary mb-2{
     align-items: center;
+    padding: 10px;
+    border-radius: 4px;
 }

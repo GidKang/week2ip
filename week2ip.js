@@ -6,7 +6,7 @@ function getInput(){
   month = parseInt(document.getElementById("month").value);
   dayOfMonth = parseInt(document.getElementById("monthday").value);
 
-  if(century == "" || century < 0 || century> 2100 ){
+  if(century == "" || century < 0 || century > 2100 ){
     alert("Please Enter A Valid Century");
     return false;
   }else if (year == "" || year > 2021){
@@ -50,7 +50,7 @@ function checkGender()
         case gender = "male":
               switch(day){
                 case (0 || -0):
-                  document.getElementById("result").innerHTML = "The day was a Sunday." + "  " + "Your akan name is " + maleNames[0];
+                  document.getElementById("result").innerHTML = "The day was a Monday." + " " + "Your akan name is " + maleNames[0];
                 break;
                 case (1 || -1):
                   document.getElementById("result").innerHTML = "The day was a Monday." + " " + "Your akan name is " + maleNames[1];
