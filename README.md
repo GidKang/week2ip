@@ -35,4 +35,4 @@ OUTPUT: "Clears and Resets the Form"
 INPUT:"Click Clear Selection Button"
 OUTPUT:"Clears and Resets the form"
 ### Live Site
-View [Live] ()
+View [Live] (https://raw.githack.com/GidKang/week2ip/main/week2ip.html)
